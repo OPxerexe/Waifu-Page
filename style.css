@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #111;
+}
+
+.app-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.8s ease;
+    overflow: hidden;
+    --glow-color: rgba(255,255,255,0.5); 
+}
+
+/* پس‌زمینه */
+.bg-shapes {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.shape {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    border-radius: 50%;
+    animation: morph 12s infinite alternate ease-in-out;
+}
+
+.shape-1 { top: 10%; left: 10%; width: 280px; height: 280px; }
+.shape-2 { bottom: 10%; right: 15%; width: 380px; height: 380px; animation-delay: -4s; }
+.shape-3 { top: 40%; right: 40%; width: 180px; height: 180px; animation-delay: -8s; }
+
+/* چیدمان اصلی */
+#main-content {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    padding: 0 10vw;
+    transition: opacity 0.3s ease-out;
+}
+
+.pos-left { flex-direction: row; }
+.pos-right { flex-direction: row-reverse; }
+
+/* نگهدارنده کاراکتر */
+.character-wrapper {
+    position: relative;
+    height: 90vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+/* عکس اصلی کاراکتر با انیمیشن تنفس واقعی */
+.character-img-cutout {
+    height: 100vh;
+    width: auto;
+    max-width: 580px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 35px var(--glow-color)); 
+    transition: transform 0.4s ease;
+    animation: characterIdle 4s infinite ease-in-out;
+}
+
+/* انیمیشن تنفس نرم و زنده عکس */
+@keyframes characterIdle {
+    0%, 100% {
+        transform: translateY(0) scale(1);
+    }
+    50% {
+        transform: translateY(-8px) scale(1.012);
+    }
+}
+
+/* کارت اطلاعات */
+.glass-card {
+    margin-bottom: 10vh;
+    width: 400px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    color: #fff;
+    text-align: left;
+}
+
+.floating-card { animation: floatCard 4s ease-in-out infinite; }
+
+.bio-line {
+    font-size: 1.05rem;
+    margin-bottom: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px; /* ایجاد فاصله مناسب میان عنوان و مقدار */
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 6px;
+}
+
+.bio-label { 
+    font-weight: 700; 
+    color: #ffffff;
+    white-space: nowrap; /* جلوگیری از شکستن عنوان */
+}
+
+.bio-value { 
+    font-weight: 400; 
+    color: #ffd166 !important; /* رنگ طلایی مقادیر */
+    text-align: right;
+}
+
+/* دکمه‌های ناوبری با فلش مشکی */
+.nav-controls {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 15px;
+    z-index: 30;
+}
+
+.glass-btn {
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    color: #000000 !important; /* فلش مشکی پررنگ */
+    font-size: 1.6rem;
+    font-weight: bold;
+    width: 55px; 
+    height: 55px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.glass-btn:hover {
+    background: rgba(255, 255, 255, 0.8);
+    transform: scale(1.1);
+}
+
+@keyframes morph {
+    0% { border-radius: 40% 60% 60% 40%; transform: rotate(0deg); }
+    100% { border-radius: 60% 40% 40% 60%; transform: rotate(180deg); }
+}
+@keyframes floatCard {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-12px); }
+}
