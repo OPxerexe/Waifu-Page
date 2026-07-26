@@ -8,7 +8,7 @@ const characters = [
         cupSize: 'D',
         bgColor: '#b3152a',
         position: 'pos-left', 
-        imageSrc: 'https://i.postimg.cc/PxxxPWtD/413768284538293302-jfif.png'
+        imageSrc: 'https://cdn.imgurl.ir/uploads/a400402_413768284538293302-jfif.png'
     },
     {
         id: 'kaoruko',
@@ -19,7 +19,7 @@ const characters = [
         cupSize: 'B',
         bgColor: '#a08fd5',
         position: 'pos-right', 
-        imageSrc: 'https://i.postimg.cc/Jnw6hq3X/13933080092886485.png'
+        imageSrc: 'https://cdn.imgurl.ir/uploads/a145981_13933080092886485.png'
     },
     {
         id: 'mio',
@@ -30,7 +30,7 @@ const characters = [
         cupSize: 'C',
         bgColor: '#40E0D0',
         position: 'pos-left', 
-        imageSrc: 'https://i.postimg.cc/zG7HvXnP/photo-2-2026-07-24-19-36-45.png'
+        imageSrc: 'https://cdn.imgurl.ir/uploads/w416321_photo-2-2026-07-24-19-36-45.png'
     },
     {
         id: 'marin',
@@ -41,7 +41,7 @@ const characters = [
         cupSize: 'E',
         bgColor: '#ffb7c5',
         position: 'pos-right', 
-        imageSrc: 'https://i.postimg.cc/XNB5LWbp/313000242881679197-jfif.png'
+        imageSrc: 'https://cdn.imgurl.ir/uploads/z29034_313000242881679197-jfif.png'
     },
     {
         id: 'alya',
@@ -52,7 +52,7 @@ const characters = [
         cupSize: 'D',
         bgColor: '#fff0f5',
         position: 'pos-left', 
-        imageSrc: 'https://i.postimg.cc/9Qhyzns9/631207704070889727-jfif.png'
+        imageSrc: 'https://cdn.imgurl.ir/uploads/378631_631207704070889727-jfif.png'
     },
     {
         id: 'power',
@@ -63,7 +63,7 @@ const characters = [
         cupSize: 'DDD',
         bgColor: '#e74279',
         position: 'pos-right', 
-        imageSrc: 'https://i.postimg.cc/CKFhZGFM/Power-(1)-jfif.png'
+        imageSrc: 'https://cdn.imgurl.ir/uploads/f870029_Power-1-jfif.png'
     },
     {
         id: 'reze',
@@ -74,7 +74,7 @@ const characters = [
         cupSize: 'DDD',
         bgColor: '#600097',
         position: 'pos-left', 
-        imageSrc: 'https://i.postimg.cc/R06TrHH8/Reze-(1)-jfif.png'
+        imageSrc: 'https://cdn.imgurl.ir/uploads/t076482_Reze-1-jfif.png'
     },
     {
         id: 'ai',
@@ -85,7 +85,7 @@ const characters = [
         cupSize: 'C',
         bgColor: '#ce590a',
         position: 'pos-right', 
-        imageSrc: 'https://i.postimg.cc/rwY9YJKg/38280665578737135-jfif.png'
+        imageSrc: 'https://cdn.imgurl.ir/uploads/m4858_38280665578737135-jfif.png'
     },
     {
         id: 'chisa',
@@ -96,7 +96,7 @@ const characters = [
         cupSize: 'C',
         bgColor: '#bbe71c',
         position: 'pos-left', 
-        imageSrc: 'https://i.postimg.cc/tRS8WLjK/Chisa-Kotegawa-gu-shou-chuan-qian-sha-Grand-Blue-Dreaming-Anime-Girl-Wallpaper-jfif.png'
+        imageSrc: 'https://cdn.imgurl.ir/uploads/a918915_Chisa-Kotegawa-gu-shou-chuan-qian-sha-Grand-Blue-Dreaming-Anime-Girl-Wallpaper-jfif.png'
     },
     {
         id: 'tsunade',
@@ -107,7 +107,7 @@ const characters = [
         cupSize: 'JJ',
         bgColor: '#1a0beb',
         position: 'pos-right', 
-        imageSrc: 'https://i.postimg.cc/ZnXScQ16/(1)-jfif.png'
+        imageSrc: 'https://cdn.imgurl.ir/uploads/h24837_1-jfif.png'
     },
     {
         id: 'misa',
@@ -118,7 +118,7 @@ const characters = [
         cupSize: 'A',
         bgColor: '#09ff00',
         position: 'pos-left', 
-        imageSrc: 'https://i.postimg.cc/yxK14tL2/25755029114704204-jfif.png'
+        imageSrc: 'https://cdn.imgurl.ir/uploads/y2104_25755029114704204-jfif.png'
     },
     {
         id: 'rem',
@@ -129,7 +129,7 @@ const characters = [
         cupSize: 'B',
         bgColor: '#659cda',
         position: 'pos-left', 
-        imageSrc: 'https://i.postimg.cc/44WqTj2w/Ghe-xem-Light-Novel-cua-to-o-FB-Esora-nhe-jfif.png'
+        imageSrc: 'https://cdn.imgurl.ir/uploads/x473361_Ghe-xem-Light-Novel-cua-to-o-FB-Esora-nhe-jfif.png'
     }
 ];
 
