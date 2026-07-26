@@ -7,7 +7,7 @@ const characters = [
         personality: 'Assassin / Sweet yet lethal',
         cupSize: 'D',
         bgColor: '#b3152a',
-        position: 'pos-left', // ۱. سمت چپ
+        position: 'pos-left', 
         imageSrc: 'https://i.postimg.cc/PxxxPWtD/413768284538293302-jfif.png'
     },
     {
@@ -18,7 +18,7 @@ const characters = [
         personality: 'Gentle / Graceful / Kind-hearted',
         cupSize: 'B',
         bgColor: '#a08fd5',
-        position: 'pos-right', // ۲. سمت راست
+        position: 'pos-right', 
         imageSrc: 'https://i.postimg.cc/Jnw6hq3X/13933080092886485.png'
     },
     {
@@ -29,7 +29,7 @@ const characters = [
         personality: 'Strikingly beautiful / Charismatic',
         cupSize: 'C',
         bgColor: '#40E0D0',
-        position: 'pos-left', // ۳. سمت چپ
+        position: 'pos-left', 
         imageSrc: 'https://i.postimg.cc/zG7HvXnP/photo-2-2026-07-24-19-36-45.png'
     },
     {
@@ -40,7 +40,7 @@ const characters = [
         personality: 'Otaku / Extroverted / Friendly',
         cupSize: 'E',
         bgColor: '#ffb7c5',
-        position: 'pos-right', // ۴. سمت راست
+        position: 'pos-right', 
         imageSrc: 'https://i.postimg.cc/XNB5LWbp/313000242881679197-jfif.png'
     },
     {
@@ -51,7 +51,7 @@ const characters = [
         personality: 'Smart / Tsundere / Secretly affectionate',
         cupSize: 'D',
         bgColor: '#fff0f5',
-        position: 'pos-left', // ۵. سمت چپ
+        position: 'pos-left', 
         imageSrc: 'https://i.postimg.cc/9Qhyzns9/631207704070889727-jfif.png'
     },
     {
@@ -62,7 +62,7 @@ const characters = [
         personality: 'childish / greedy / pathological liar',
         cupSize: 'DDD',
         bgColor: '#e74279',
-        position: 'pos-right', // ۵. سمت چپ
+        position: 'pos-right', 
         imageSrc: 'https://i.postimg.cc/CKFhZGFM/Power-(1)-jfif.png'
     },
     {
@@ -73,7 +73,7 @@ const characters = [
         personality: 'charm / ruthlessness / tragic vulnerability',
         cupSize: 'DDD',
         bgColor: '#600097',
-        position: 'pos-left', // ۵. سمت چپ
+        position: 'pos-left', 
         imageSrc: 'https://i.postimg.cc/R06TrHH8/Reze-(1)-jfif.png'
     },
     {
@@ -169,7 +169,7 @@ function renderCharacter(index) {
         appContainer.style.backgroundColor = char.bgColor;
         appContainer.style.setProperty('--glow-color', char.bgColor);
         
-        // جابه‌جایی سمت قرارگیری (چپ/راست)
+    
         mainContent.className = `content-layout ${char.position}`;
 
         characterImg.onload = () => {
