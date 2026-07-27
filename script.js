@@ -130,6 +130,50 @@ const characters = [
         bgColor: '#659cda',
         position: 'pos-left', 
         imageSrc: 'https://cdn.imgurl.ir/uploads/x473361_Ghe-xem-Light-Novel-cua-to-o-FB-Esora-nhe-jfif.png'
+    },
+    {
+        id: '2b',
+        name: 'YoRHa',
+        last: '2B',
+        age: '20',
+        personality: 'kind / emotional / blade of quiet determination',
+        cupSize: 'C',
+        bgColor: '#ffffff',
+        position: 'pos-right', 
+        imageSrc: 'https://cdn.imgurl.ir/uploads/r887718_84794405480887969.jfif_1.png'
+    },
+    {
+        id: 'kaguya',
+        name: 'Kaguya',
+        last: 'Otsutsuki',
+        age: '8000',
+        personality: 'arrogant / paranoid / extremely insecure',
+        cupSize: 'B',
+        bgColor: '#11253b',
+        position: 'pos-left', 
+        imageSrc: 'https://cdn.imgurl.ir/uploads/d77494_88312842691826705.jfif.png'
+    },
+    {
+        id: 'kaguya-sama',
+        name: 'Kaguya',
+        last: 'Shinomiya ',
+        age: '18',
+        personality: 'brilliant / proud / calculating genius',
+        cupSize: 'A',
+        bgColor: '#866431',
+        position: 'pos-right', 
+        imageSrc: 'https://cdn.imgurl.ir/uploads/l24287_445645325652825436.jfif.png'
+    },
+    {
+        id: 'hinata',
+        name: 'Hinata',
+        last: 'Hyuga',
+        age: '19',
+        personality: 'shy / kind / gentle nature',
+        cupSize: 'E',
+        bgColor: '#8320c5',
+        position: 'pos-right', 
+        imageSrc: 'https://cdn.imgurl.ir/uploads/h3546_____HINATA_HYUGA.jfif_1.png'
     }
 ];
 
